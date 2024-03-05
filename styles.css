@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+}
+header{
+    display:flex;
+    background-color: coral;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-align:center;
+    z-index: 1;
+
+}
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+#logo{
+    width: 20%;
+    margin: 10px;
+}
+header h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    
+    margin-top: 500px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 100%s;
+    text-align: center;
+    
+}
+body h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+body p{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+body img{
+    width: 200px;
+}
+body div h4{
+    text-align: center;
+}
+section{
+    display: flex;
+}
+section div{
+    margin: 2%;
+}
+section div h2{
+    text-align: center;
+}
+section div img{
+    border-radius: 100%s;
+    margin: auto;
+}
+#pinturas2{
+    display: flex;
+    margin: 2%;
+    text-align: center;
+}
+footer ul{
+    background-color: coral;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#abajo{
+    margin-top: 250px;
+}
+footer {
+    background-color: burlywood;
+}
+div img{
+    text-align: center;
+    
+}
+#imgredonda{
+    border-radius: 100%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
